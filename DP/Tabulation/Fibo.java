@@ -15,5 +15,6 @@ public class Fibo {
         }
 
         System.out.println("Fibonacci of " + n + " is: " + dp[n-1]);  
+        sc.close();
     }
 }
