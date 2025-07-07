@@ -14,6 +14,6 @@ public class Fibo {
             dp[i] = dp[i - 1] + dp[i - 2]; 
         }
 
-        System.out.println("Fibonacci of " + n + " is: " + dp[n]);  
+        System.out.println("Fibonacci of " + n + " is: " + dp[n-1]);  
     }
 }
