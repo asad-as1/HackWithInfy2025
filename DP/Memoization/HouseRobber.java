@@ -1,4 +1,6 @@
-class Solution {
+package HackWithInfy2025.DP.Memoization;
+
+public class HouseRobber {
     public static int rob(int[] nums) {
         int n = nums.length;
         Integer dp[] = new Integer[n];
@@ -17,7 +19,6 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        // Solution sol = new Solution();
         int[] nums = {2, 7, 9, 3, 1};
         System.out.println(rob(nums)); 
     }
