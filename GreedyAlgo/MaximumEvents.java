@@ -1,5 +1,7 @@
+import java.util.*;
+
 class MaximumEvents {
-    public int maxEvents(int[][] events) {
+    public static int maxEvents(int[][] events) {
         Arrays.sort(events, (a, b) -> {
             if (a[1] != b[1]) {
                 return Integer.compare(a[1], b[1]);
