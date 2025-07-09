@@ -1,7 +1,7 @@
 package HackWithInfy2025.DP.Memoization;
 
 public class ClimbingStairs {
-    Integer dp[];
+    static Integer dp[];
     public static void main(String[] args) {
         int n = 4;
         dp = new Integer[n + 1];
